@@ -1,3 +1,33 @@
+html {
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500px;
+ font-width: 100px;
+}
+
 body {
+  text-transform: uppercase;
   margin: 0;
+  color: blue;
+}
+
+.nav__item {
+  flex-basis: auto;
+}
+
+head {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.nav__item--active::after {
+width: 37;
+height: 4;
+top: 56px;
+left: 509px;
+border-radius: 8px;
+angle: 0 deg;
+opacity: 1;
 }
