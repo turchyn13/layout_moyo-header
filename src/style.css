@@ -14,7 +14,7 @@ body {
   flex-basis: auto;
 }
 
-head {
+header {
   color: blue;
   display: flex;
   flex-direction: row;
