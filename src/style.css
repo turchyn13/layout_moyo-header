@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-  color: blue;
   padding-inline: 50px;
   justify-content: space-between;
   display: flex;
