@@ -1,11 +1,10 @@
 html {
  font-family: 'Roboto', sans-serif;
- font-weight: 500px;
- font-width: 100px;
+ font-weight: 500;
+ font-width: 100;
 }
 
 body {
-  text-transform: uppercase;
   margin: 0;
   color: blue;
 }
@@ -18,12 +17,12 @@ body {
   --color-blue: #00acdc;
 }
 
-header {
+.header {
   color: blue;
   padding-inline: 50px;
   height: 60px;
   justify-content: space-between;
-  display: flex;
+  display: flexbox;
   flex-direction: row;
   text-transform: uppercase;
 }
