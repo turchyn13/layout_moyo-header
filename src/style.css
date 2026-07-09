@@ -27,8 +27,8 @@ header {
 }
 
 .is_active::after {
-width: 37;
-height: 4;
+width: 37px;
+height: 4px;
 top: 56px;
 left: 509px;
 border-radius: 8px;
