@@ -22,6 +22,10 @@ body {
   display: block;
 }
 
+.nav__item:last-child {
+  margin-right: 0;
+}
+
 .logo__image {
   display: block;
   width: 40px;
