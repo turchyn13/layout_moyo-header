@@ -7,6 +7,13 @@ body {
   margin: 0;
 }
 
+.header {
+  padding: 0 50px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
 .nav__item {
   margin-right: 20px;
 }
@@ -42,13 +49,6 @@ body {
 
 :root{
   --color-blue: #00acdc;
-}
-
-.header {
-  padding: 0 50px;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
 }
 
 .nav__item a:hover,
