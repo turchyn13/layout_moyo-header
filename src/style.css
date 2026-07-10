@@ -8,8 +8,36 @@ body {
 }
 
 .nav__item {
-  flex-basis: auto;
+  margin-right: 20px;
+}
+
+.logo {
+  display: block;
+}
+
+.logo__image {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.nav__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__link {
+   position: relative;
+  display: flex;
+  align-items: center;
   height: 60px;
+  color: #000;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 :root{
@@ -17,31 +45,24 @@ body {
 }
 
 .header {
-  padding-inline: 50px;
+  padding: 0 50px;
   justify-content: space-between;
   display: flex;
-  flex-direction: row;
-  text-transform: uppercase;
   align-items: center;
 }
 
-.is_active{
-  position: relative;
+.nav__item a:hover,
+.nav__link.is-active {
   color: var(--color-blue);
 }
 
-.nav__item a:hover {
-  color: var(--color-blue);
-}
-
-.is-active::after {
+.nav__link.is-active::after {
 content: "";
 position: absolute;
-width: 100%;
-height: 4px;
-background-color: var(--color-blue);
 bottom: 0;
 left: 0;
-border-radius: 8px;
-opacity: 1;
+width: 100%;
+height: 4px;
+border-radius: 2px;
+background-color: var(--color-blue);
 }
